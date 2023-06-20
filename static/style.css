@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(57, 193, 193);
+    color: white;
+    font-family: "Coming soon", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.intro img {
+    width: 100px;
+    height: 100px;
+}
+
+.intro h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.intro button{ 
+    border-radius: 12px;
+    background-color: #3c48a5;
+    color: white;
+    padding: 20px 60px 20px 60px;
+    font-size: 15px;
+    border: none;
+    font-family: "Coming Soon";
+    transition: 0.5s ease-in;
+}
+
+.intro button:hover{
+    transform: scale(1.1);
+    background-color: rgb(233, 220, 41);
+}
+
+.addpagetitle {
+    font-size: 35px;
+    font-family: "Chewy", sans-serif;
+    letter-spacing: 3px;
+    margin-top: 0;
+}
+
+form {
+    align-items: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=submit] {
+    border-radius: 12px;
+    background-color: #3c48a5;
+    color: white;
+    padding: 20px 60px 20px 60px;
+    border: none;
+    font-family: "Coming Soon";
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    transform: scale(1.15);
+    background-color: rgb(88, 219, 99);
+}
+
+input[type=number] {
+    width: 85%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 8px 0;
+    align-items: center;
+}
+
+input[type=date] {
+    width: 85%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 8px 0;
+    align-items: center;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    align-items: center;
+}

@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(57, 193, 193);
+    color: white;
+    font-family: "Coming soon", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.intro img {
+    width: 100px;
+    height: 100px;
+}
+
+.intro h2 {
+    position: absolute;
+    font-family: "Chewy", sans-serif;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.intro button{
+    border-radius: 12px;
+    background-color: #3c48a5;
+    color: white;
+    padding: 20px 60px 20px 60px;
+    font-size: 15px;
+    border: none;
+    font-family: "Coming Soon";
+    transition: 0.5s ease-in;
+}
+
+.intro button:hover{
+    background-color: rgb(39, 154, 221);
+}
+
+.time #txt{
+    font-size: 30px;
+    font-family: "Coming Soon";
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.bodycontainer #users{
+    border: 1px solid;
+}
+
+footer {
+    align-items: center;
+}
