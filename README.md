@@ -12,6 +12,6 @@ How it works:
 2. When the time comes to take your medication, our cutting edge Motor TechnologyTM comes into play. The servo motor will shake the tube so that ONE pill comes out, and stops when the sensor detects the falling pill
 3. Take your medication -- you’ll be alerted when to take it again!
 
-Also see website: https://github.com/tczg/PigeonPill
+Also see hardware component: https://github.com/emilysxng/nw-hacks-pill-dispenser
 
-**Contributors:** Tony Gu (https://github.com/tczg), Amir Tajaddoditalab (https://github.com/Mighty199), Gursharan Singh 
+**Contributors:** Emily Song (https://github.com/emilysxng), Amir Tajaddoditalab (https://github.com/Mighty199), Gursharan Singh 
